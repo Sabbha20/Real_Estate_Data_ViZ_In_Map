@@ -1,0 +1,94 @@
+# Python bytecode and other Python-related files
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Flask specific
+instance/
+*.log
+*.pot
+*.mo
+*.pyc
+*.pyo
+
+# PyCharm specific
+.idea/
+.vscode/
+*.sublime*
+
+# Virtual environments
+.menv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Machine Learning project files
+# Data files
+*.csv
+*.dat
+*.data
+*.tfrecord
+*.h5
+*.npz
+
+# Model files
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# TensorBoard log files
+logs/
+events.out.tfevents.*
+
+# Other temporary files
+*.tmp
+*.temp
+*.log
+
+# Unit test / coverage reports
+coverage/
+*.cover
+*.py,cover
+*.coverage
+*.tox
+.cache/
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.pytest_cache/
+
+# Distribution / packaging
+.Python
+*.pyd
+*.whl
+*.dll
+*.dylib
+*.lib
+
+# Environment and Pyre type checker
+.env
+.venv
+.pdm
+.pip/
+__pypackages__/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
